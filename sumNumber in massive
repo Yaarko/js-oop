@@ -1,0 +1,13 @@
+'use strict'
+
+let arr = [1, 2, 3.3, -10, 50];
+let sum = 0;
+console.log(arr);
+
+arr.forEach(
+  function sumNum(current){
+    sum += current;
+  }
+)
+
+console.log(sum.toFixed(1));
