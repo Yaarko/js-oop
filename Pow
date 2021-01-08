@@ -1,0 +1,6 @@
+'use strict'
+
+let ave = (a, b) => {
+  return Math.pow(a, b);
+}
+console.log(ave(2, 3));
