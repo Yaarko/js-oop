@@ -1,0 +1,6 @@
+'use strict'
+
+let arr = [2, 1, 6, 6, 5.5, -3];
+
+arr.sort( (a, b) => a - b);
+console.log(arr);
